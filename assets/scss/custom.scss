@@ -1,0 +1,13 @@
+// custom.scss
+
+// Custom variables
+$gob-nav : #0C231E;
+
+// then bootstrap own to inherit variables
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+// custom scss
+body{
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
